@@ -1,0 +1,21 @@
+# Ignore environment files
+.env
+*.env
+
+# Ignore credentials and secrets
+*.key
+*.pem
+*.pfx
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled PowerShell scripts
+*.ps1xml
+*.psm1
+*.psd1
