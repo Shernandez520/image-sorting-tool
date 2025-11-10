@@ -1,21 +1,16 @@
-# Ignore environment files
-.env
-*.env
+# Ignore generated log file
+image_sort_log.txt
 
-# Ignore credentials and secrets
-*.key
-*.pem
-*.pfx
-
-# Ignore logs and temp files
-*.log
-*.tmp
+# Ignore image files
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
 
 # Ignore system files
 .DS_Store
 Thumbs.db
 
-# Ignore compiled PowerShell scripts
-*.ps1xml
-*.psm1
-*.psd1
+# Ignore temporary files
+*.tmp
